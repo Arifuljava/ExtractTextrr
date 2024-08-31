@@ -1,0 +1,1 @@
+Extract digit from image 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255334932C7F1543000BB099 /* TimeDataManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255334922C7F1543000BB099 /* TimeDataManagement.swift */; };
+		256CEBB42C7F328700979153 /* TimecheUnderContraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CEBB32C7F328700979153 /* TimecheUnderContraction.swift */; };
+		25F242052C7D7CB0007AC44A /* DataManagement .swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F242042C7D7CB0007AC44A /* DataManagement .swift */; };
 		25FF86AF2C7C2DA900E1617B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86AE2C7C2DA900E1617B /* AppDelegate.swift */; };
 		25FF86B12C7C2DA900E1617B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86B02C7C2DA900E1617B /* SceneDelegate.swift */; };
 		25FF86B32C7C2DA900E1617B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86B22C7C2DA900E1617B /* ViewController.swift */; };
@@ -17,6 +20,7 @@
 		25FF86C92C7C2DAB00E1617B /* ExtractTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86C82C7C2DAB00E1617B /* ExtractTextTests.swift */; };
 		25FF86D32C7C2DAB00E1617B /* ExtractTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86D22C7C2DAB00E1617B /* ExtractTextUITests.swift */; };
 		25FF86D52C7C2DAB00E1617B /* ExtractTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86D42C7C2DAB00E1617B /* ExtractTextUITestsLaunchTests.swift */; };
+		25FF86E32C7C6C9000E1617B /* ExtractTextFromImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86E22C7C6C9000E1617B /* ExtractTextFromImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		255334922C7F1543000BB099 /* TimeDataManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDataManagement.swift; sourceTree = "<group>"; };
+		256CEBB32C7F328700979153 /* TimecheUnderContraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimecheUnderContraction.swift; sourceTree = "<group>"; };
+		25F242042C7D7CB0007AC44A /* DataManagement .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataManagement .swift"; sourceTree = "<group>"; };
 		25FF86AB2C7C2DA900E1617B /* ExtractText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtractText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FF86AE2C7C2DA900E1617B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25FF86B02C7C2DA900E1617B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		25FF86CE2C7C2DAB00E1617B /* ExtractTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtractTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FF86D22C7C2DAB00E1617B /* ExtractTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractTextUITests.swift; sourceTree = "<group>"; };
 		25FF86D42C7C2DAB00E1617B /* ExtractTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25FF86E22C7C6C9000E1617B /* ExtractTextFromImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractTextFromImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		25FF86AD2C7C2DA900E1617B /* ExtractText */ = {
 			isa = PBXGroup;
 			children = (
+				25FF86E12C7C6C2B00E1617B /* extracttext */,
 				25FF86AE2C7C2DA900E1617B /* AppDelegate.swift */,
 				25FF86B02C7C2DA900E1617B /* SceneDelegate.swift */,
 				25FF86B22C7C2DA900E1617B /* ViewController.swift */,
@@ -128,6 +137,17 @@
 				25FF86D42C7C2DAB00E1617B /* ExtractTextUITestsLaunchTests.swift */,
 			);
 			path = ExtractTextUITests;
+			sourceTree = "<group>";
+		};
+		25FF86E12C7C6C2B00E1617B /* extracttext */ = {
+			isa = PBXGroup;
+			children = (
+				25FF86E22C7C6C9000E1617B /* ExtractTextFromImage.swift */,
+				25F242042C7D7CB0007AC44A /* DataManagement .swift */,
+				255334922C7F1543000BB099 /* TimeDataManagement.swift */,
+				256CEBB32C7F328700979153 /* TimecheUnderContraction.swift */,
+			);
+			path = extracttext;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FF86E32C7C6C9000E1617B /* ExtractTextFromImage.swift in Sources */,
+				256CEBB42C7F328700979153 /* TimecheUnderContraction.swift in Sources */,
 				25FF86B92C7C2DA900E1617B /* ExtractText.xcdatamodeld in Sources */,
 				25FF86B32C7C2DA900E1617B /* ViewController.swift in Sources */,
+				25F242052C7D7CB0007AC44A /* DataManagement .swift in Sources */,
 				25FF86AF2C7C2DA900E1617B /* AppDelegate.swift in Sources */,
+				255334932C7F1543000BB099 /* TimeDataManagement.swift in Sources */,
 				25FF86B12C7C2DA900E1617B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,9 +485,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.ExtractText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -489,9 +516,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.ExtractText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
